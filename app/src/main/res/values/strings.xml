@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SprinklerApp</string>
+    <string name="night">Night Mode</string>
+    <string name="day">Day Mode</string>
+</resources>
