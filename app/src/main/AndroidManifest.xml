@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/splashh"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/splashh"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
@@ -22,7 +22,15 @@
         <activity android:name=".About" />
         <activity android:name=".Data" />
         <activity android:name=".Pengaturan" />
-        <activity android:name=".Panduan"></activity>
+        <activity android:name=".Panduan" />
+        <activity android:name=".InfoTanaman" />
+        <activity android:name=".InfoMawar" />
+        <activity android:name=".InfoCabai" />
+        <activity android:name=".InfoTomat" />
+        <activity android:name=".InfoAnggrek" />
+        <activity android:name=".InfoMelati" />
+        <activity android:name=".InfoKaktus" />
+        <activity android:name=".InfoMatahari"></activity>
     </application>
 
 </manifest>

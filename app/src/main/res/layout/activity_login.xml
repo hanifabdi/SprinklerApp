@@ -73,9 +73,10 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="32dp"
         android:layout_marginBottom="133dp"
-        android:background="#00FF00"
+        android:background="#006400"
         android:text="Login"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"/>
 
     <TextView
         android:id="@+id/textView2"
@@ -98,7 +99,7 @@
         android:layout_toEndOf="@+id/imageView"
         android:text="Create Now!"
         android:onClick="Create Now!"
-        android:textColor="#00FF00"
+        android:textColor="#006400"
         android:textSize="18dp" />
 
 

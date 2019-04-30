@@ -73,6 +73,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1">
                 <ImageView
+                    android:id="@+id/data"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/data"
@@ -92,6 +93,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1">
                 <ImageView
+                    android:id="@+id/history"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/history"
@@ -112,6 +114,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1">
                 <ImageView
+                    android:id="@+id/kalender"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/calender"
@@ -141,10 +144,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1">
                 <ImageView
+                    android:id="@+id/tanam"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/tanam"
-                    android:layout_margin="25dp"/>
+                    android:layout_margin="25dp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -160,6 +164,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1">
                 <ImageView
+                    android:id="@+id/atur"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/aturan"
@@ -178,6 +183,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1">
                 <ImageView
+                    android:id="@+id/pandu"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/panduann"

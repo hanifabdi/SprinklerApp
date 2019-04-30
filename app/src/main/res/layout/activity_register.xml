@@ -72,9 +72,10 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="30dp"
         android:layout_marginBottom="143dp"
-        android:background="#00FF00"
+        android:background="#006400"
         android:text="Register"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"/>
 
 
 
