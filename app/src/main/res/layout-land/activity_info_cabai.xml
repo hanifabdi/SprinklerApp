@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/birulaut"
+    tools:context=".InfoCabai">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="670dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="0dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/cabai" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="25dp"
+            android:text="@string/tcabai"
+            android:textStyle="normal"
+            android:textColor="@color/black"
+            android:textSize="19dp"/>
+
+        <Button
+            android:id="@+id/btcabai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kembali"
+            android:layout_marginStart="480dp"
+            android:layout_marginTop="10dp"
+            android:textSize="19dp"
+            android:textColor="@color/darkgreen"
+            android:background="@android:color/transparent"
+            />
+
+    </LinearLayout>
+</ScrollView>
